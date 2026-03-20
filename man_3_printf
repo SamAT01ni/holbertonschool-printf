@@ -51,7 +51,19 @@ _printf("%");
 .br
 There is no output here
 
+.SH LIMITATIONS
+If a converter that isnt used in the project is given, eg %x, it will simply print %x as the code isnt set up to handle these specifiers.
+.br
+Other more complex flags are ignored. 
+.br
+This was just 2 guys in a week cmon
+
 .SH AUTHORS
 Lachlan Luchetti
 .br
 Sam Thompson
+
+.SH REPORTING BUGS
+Its not that deep, but message me at sam.a.thompson2001@gmail.com , lachy doesnt have to know.
+.br
+alternatively, if you feel very strongly let the Irish embassy know, they can deal with me, tel: +61 2 62140000
