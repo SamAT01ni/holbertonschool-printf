@@ -1,5 +1,11 @@
 #include "main.h"
 
+/*
+ * _printf - acts as a simplified printf clone, handling d, i, s and c converters
+ * @format: pointint to specific arguments
+ * Return: -1 if a fault, letters\characters to write out if not
+ */
+
 int _printf(const char *format, ...)
 {
 	va_list args;
