@@ -5,6 +5,7 @@
  * @n: given digit or integer to print
  *
  * Return: number of characters printed
+ */
 
 int printf_int(int n)
 {
