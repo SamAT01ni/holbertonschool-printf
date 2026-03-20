@@ -51,7 +51,7 @@ The code sees the %s and can pass it as a string, writing each character in it u
 
 The %d and %i specifiers work the same way, in the printf_int function. The example shows the use of %i
 ```
-_printf("Liverpool %i - Galatasaray %i\n", 4, 0);
+_printf("Liverpool %i - %i Galatasaray\n", 4, 0);
 
 Output:
 Liverpool 4 - 0 Galatasaray
