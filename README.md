@@ -27,3 +27,22 @@ Used gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o _printf to compile al
 - compiled using -Wall -Werror -Wextra -pedantic -std=gnu89
 - no more than 5 functions per file
 - header file names main.h
+
+## Examples of using the code
+
+Hello world
+```
+#include "main.h"
+
+int main(void)
+{
+	_printf("Hello %s\n", "world");
+	return (0);
+}
+```
+Output will be 
+```
+Hello world
+```
+
+The code sees the %s and can pass it as a string, writing each character in it using stdout.
