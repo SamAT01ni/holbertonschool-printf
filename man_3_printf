@@ -8,6 +8,8 @@ _printf \- custom printf function
 
 int _printf(const char *format, ...);
 
+Also, if you must view this man page, i like to use ' groff -man -Tascii man_3_printf | less '
+
 .SH DESCRIPTION
 This functions acts as a simplified printf standard function.
 
