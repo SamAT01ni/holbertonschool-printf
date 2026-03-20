@@ -67,6 +67,7 @@ Look, a percentage sign!: %
 ```
 ---
 ### Unused arguments
+
 If there are extra arguments that arent used in 'format', they are ignored.
 ```
 _printf("hello %s\n", "world", 1, 2, 3, 4);
@@ -74,8 +75,11 @@ _printf("hello %s\n", "world", 1, 2, 3, 4);
 Output:
 hello world
 ```
+
 The is just one argument given with a %, so only the first string will be passed (%s) and the surplus arguments of 1 2 3 and 4 will not be used
+
 ---
+
 ## Acknowledgements
 Designed by Lachlan Luchetti and Sam Thompson
 Give us a shout on email if you want to talk about rugby union or make a pull request
